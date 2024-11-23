@@ -1,0 +1,113 @@
+.p-panelmenu .p-panelmenu-header .p-panelmenu-header-content,
+.p-panelmenu .p-panelmenu-content {
+    border-width: 0 !important;
+    background:none !important
+}
+
+.p-panelmenu .p-panelmenu-header:not(.p-disabled):focus .p-panelmenu-header-content,
+.p-button.p-button-link:enabled:focus {
+    box-shadow: none !important
+}
+
+.p-dropdown {
+    height: 34px !important;
+    border: 1px solid rgba(0, 128, 0, 0.418);
+}
+
+.p-inputtext,
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+    padding: 0.25rem 0.75rem !important;
+    border-color: #249e4d46 !important;
+    border-radius: 4px;
+}
+
+.p-tabmenu .p-tabmenu-nav,
+.p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link,
+.p-tabmenu .p-tabmenu-nav .p-tabmenuitem.p-highlight .p-menuitem-link {
+    border-width: 0 0 3px 0 !important;
+}
+
+.p-button{
+    // width: 120px !important;
+    height: 32px;
+    padding-inline: 20px;
+    background-color: revert-layer !important;
+}
+
+.p-selectbutton .p-button {
+    height: -webkit-fill-available !important;
+    background: #10b981 !important;
+    border: 1px solid #10b981 !important;
+    color: white !important;
+    width: 120px !important;
+}
+
+.p-selectbutton .p-button.p-highlight {
+    color: #293042 !important;
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+    background-color: #e9ebeb;
+}
+.p-datatable .p-column-header-content {
+    justify-content: flex-start !important;
+    padding-left: 8px;
+}
+
+.emp-update .p-inputtext{
+    width: 160px;
+}
+
+.p-inputtext:focus{
+    --tw-ring-color: #10b981;
+}
+
+.branch-update th
+.emp-update th{
+    padding-inline: 15px !important
+}
+
+.p-checkbox .p-checkbox-box{
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 1px 2px 0 rgb(40 137 76);
+}
+
+.p-radiobutton{
+    border-radius: 50%;
+    border-color: rgb(57, 196, 57);
+    border-width: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+}
+
+table th{
+    color: rgb(73, 71, 71);
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page{
+    margin-inline: 3px !important;
+    border: solid 1px rgba(128, 128, 128, 0.384) !important;
+    min-width: 2rem;
+    height: 2rem;
+}
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight{
+    color: green !important;
+    border: solid 1px green !important;
+}
+
+.p-button-label,
+.p-button-label,
+.p-button-label,
+.p-datatable-table,
+label,
+span{
+    font-family: "Noto Serif JP", serif;
+    font-style: normal;
+}
+
+.sub-item-part{
+    display: flex;
+    flex-direction: column;
+}
